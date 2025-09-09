@@ -15,7 +15,7 @@ provider "aws" {
 aws_access_key_id = AKIA2T2SJH6M6722O3YR
 aws_secret_access_key = 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
 output = json
-region = us-east-2
+region = us-east-1
 
 data "aws_caller_identity" "current" {}
 
