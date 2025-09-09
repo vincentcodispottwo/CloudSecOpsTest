@@ -12,6 +12,12 @@ provider "aws" {
 }
 
 [default]
+aws_access_key_id = AKIA2T2SJH6M6LULUTFN
+aws_secret_access_key = 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
+output = json
+region = us-east-2
+
+[default]
 aws_access_key_id = AKIA2T2SJH6M336VUAV3
 aws_secret_access_key = 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
 output = json
